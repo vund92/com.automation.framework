@@ -1,0 +1,7 @@
+B0. Create a folder on Remote Computer
+B1. Copy startNode_Window.bat to the created folder on Remote Computer (as a Node)
+B2. Download and copy browser drivers (chromedriver.exe; geckodriver.exe) 
+that have version matching browsers installed on Remote Computer to the created folder on the Remote Computer
+B3. Download selenium-server-standalone-3.141.59.jar to the created folder on the Remote Computer
+
+ 

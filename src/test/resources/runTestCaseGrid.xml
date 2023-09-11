@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="NopCommerce UI Automation Testing" parallel="tests" thread-count="2">
+
+	<test name="Run on Firefox">
+		<parameter name="browser" value="firefox" />
+		<parameter name="osName" value="windows" />
+		<parameter name="ipAddress" value="192.168.1.7" />
+		<parameter name="port" value="5555" />
+		<classes>
+			<class name="grid. Level_00_Register_Login_Step_By_Step" />
+		</classes>
+	</test>
+	
+	<test name="Run on Chrome">
+		<parameter name="browser" value="chrome" />
+		<parameter name="osName" value="windows" />
+		<parameter name="ipAddress" value="192.168.1.8" />
+		<parameter name="port" value="6666" />
+		<classes>
+			<class name="grid.Level_00_Register_Login_Step_By_Step" />
+		</classes>
+	</test>
+	
+</suite>

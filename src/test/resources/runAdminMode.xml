@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ALL Testcases">
+	<suite-files>
+		<suite-file path="RunAdminMode.xml" />
+		<suite-file path="RunUserMode.xml" />
+	</suite-files>
+</suite>

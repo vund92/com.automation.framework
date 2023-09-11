@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="NopCommerce - User">
+
+	<listeners>
+		<listener class-name="commons.MethodListener" />
+		<!-- <listener class-name="reportConfig.ReportNGListener" /> -->
+		<listener class-name="reportConfig.AllureTestListener" />
+		<!-- <listener class-name="org.uncommons.reportng.HTMLReporter" /> -->
+		<!-- <listener class-name="org.uncommons.reportng.JUnitXMLReporter" /> -->
+	</listeners>
+
+	<parameter name="environment" value="DEV" />
+
+	<test name="Run on Opera">
+		<parameter name="browser" value="opera" />
+		<classes>
+			<!-- Trigger Common Register run first-->
+			<class name="com.nopcommerce.common.Common_01_Register_Cookie" />
+			<class name="com.nopcommerce.user.Level_16_Share_Data_C" />
+		</classes>
+	</test>
+
+</suite>

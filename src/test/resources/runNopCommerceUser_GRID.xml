@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="NopCommerce UI Automation Testing" parallel="tests" thread-count="2"> 
+	<!-- parallel="tests" mới chạy song song tất cả các test case trên các Nodes-->
+	
+	<parameter name="envName" value="grid" />
+	<parameter name="serverName" value="dev" />
+	﻿
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="commons.MethodListener" />
+		<listener class-name="reportConfig.ExtentTestListenerV5" />
+		<listener class-name="reportConfig.ReportNGListener" />
+		<!--<listener class-name="retryConfig.RetryListener" />-->
+	</listeners>
+
+	<test name="Run on Firefox">
+		<parameter name="browser" value="firefox" />
+		<parameter name="osName" value="windows" />
+		<parameter name="ipAddress" value="localhost" /> <!-- IP Address of some Node -->
+		<parameter name="port" value="4444" />
+		<classes>
+			<!-- <class name="com.nopcommerce.grid.Level_23_Grid" /> -->
+			<class name="com.nopcommerce.user.Level_24_Browser_Factory" />
+		</classes>
+	</test>
+
+	<test name="Run on Chrome">
+		<parameter name="browser" value="chrome" />
+		<parameter name="osName" value="windows" />
+		<parameter name="ipAddress" value="localhost" /> <!-- IP Address of some Node -->
+		<parameter name="port" value="4444" />
+		<classes>
+			<!-- <class name="com.nopcommerce.grid.Level_23_Grid" /> -->
+			<class name="com.nopcommerce.user.Level_24_Browser_Factory" />
+		</classes>
+	</test>
+
+</suite>
