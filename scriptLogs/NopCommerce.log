@@ -1456,3 +1456,59 @@
 [INFO ] [2024-01-24 05:01:06,373]  -------------------------- PASSED -------------------------- 
 [INFO ] [2024-01-24 05:01:06,376] OS name = windows 11
 [INFO ] [2024-01-24 05:01:06,376] Driver instance name = firefoxdriver: firefox on windows (bbba024f-ee6e-4c67-a902-dbf209bfe386)
+[INFO ] [2024-01-24 05:23:58,076] Register Step 01: Navigate to 'Register' page
+[INFO ] [2024-01-24 05:23:58,689] Register Step 02: Enter to Firstname textbox with value is 'Daryl'
+[INFO ] [2024-01-24 05:23:58,872] Register Step 03: Enter to Lastname textbox with value is 'Kuhlman'
+[INFO ] [2024-01-24 05:23:59,382] Register Step 04: Enter to Email textbox with value is 'kristopher.rempel@gmail.com'
+[INFO ] [2024-01-24 05:23:59,586] Register Step 05: Enter to Password textbox with value is '#yZobbNcHs'
+[INFO ] [2024-01-24 05:23:59,725] Register - Step 06: Enter to Confirm Password textbox with value is '#yZobbNcHs'
+[INFO ] [2024-01-24 05:24:00,297] Register Step 01: Navigate to 'Register' page
+[INFO ] [2024-01-24 05:24:01,521] Register Step 02: Enter to Firstname textbox with value is 'Allene'
+[INFO ] [2024-01-24 05:24:01,602] Register Step 03: Enter to Lastname textbox with value is 'Nicolas'
+[INFO ] [2024-01-24 05:24:02,444] Register Step 04: Enter to Email textbox with value is 'faye.lehner@yahoo.com'
+[INFO ] [2024-01-24 05:24:02,525] Register Step 05: Enter to Password textbox with value is 'I4rV@m&5L3'
+[INFO ] [2024-01-24 05:24:02,564] Register - Step 06: Enter to Confirm Password textbox with value is 'I4rV@m&5L3'
+[INFO ] [2024-01-24 05:24:09,874] Register - Step 07: Click to 'Register' button
+[INFO ] [2024-01-24 05:24:10,519] Register - Step 08: Verify register success message is displayed
+[INFO ] [2024-01-24 05:24:10,756] Login - Step 01: Navigate to Login page
+[INFO ] [2024-01-24 05:24:11,095] Login - Step 02: Enter to Email textbox with value is 'kristopher.rempel@gmail.com'
+[INFO ] [2024-01-24 05:24:11,251] Login Step 03: Enter to Password textbox with value is '#yZobbNcHs'
+[INFO ] [2024-01-24 05:24:11,359] Login - Step 04: Click to Login button
+[INFO ] [2024-01-24 05:24:11,975] Login Step 05: Verify 'My Account' link is displayed
+[INFO ] [2024-01-24 05:24:12,032]  -------------------------- PASSED -------------------------- 
+[INFO ] [2024-01-24 05:24:12,032] Login Step 06: Navigate to 'My Account' page
+[INFO ] [2024-01-24 05:24:12,394] Login Step 06: Verify 'Customer Infor' page is displayed
+[INFO ] [2024-01-24 05:24:12,448]  -------------------------- PASSED -------------------------- 
+[INFO ] [2024-01-24 05:24:12,453] My Account Step 01: Navigate to 'My Account' page
+[INFO ] [2024-01-24 05:24:12,614] Register - Step 07: Click to 'Register' button
+[INFO ] [2024-01-24 05:24:12,829] My Account Step 02: Verify 'Customer Infor' page is displayed
+[INFO ] [2024-01-24 05:24:12,878]  -------------------------- PASSED -------------------------- 
+[INFO ] [2024-01-24 05:24:12,878] My Account Step 03: Verify 'First Name' value is correctly
+[INFO ] [2024-01-24 05:24:12,938]  -------------------------- PASSED -------------------------- 
+[INFO ] [2024-01-24 05:24:12,938] My Account Step 04: Verify 'Last Name' value is correctly
+[INFO ] [2024-01-24 05:24:12,999]  -------------------------- PASSED -------------------------- 
+[INFO ] [2024-01-24 05:24:13,000] My Account Step 05: Verify 'Email' value is correctly
+[INFO ] [2024-01-24 05:24:13,061]  -------------------------- PASSED -------------------------- 
+[INFO ] [2024-01-24 05:24:13,065] OS name = windows 11
+[INFO ] [2024-01-24 05:24:13,065] Driver instance name = chromedriver: chrome on windows (504be5cc050a752a5081020d64fbffc4)
+[INFO ] [2024-01-24 05:24:13,187] Register - Step 08: Verify register success message is displayed
+[INFO ] [2024-01-24 05:24:13,456] Login - Step 01: Navigate to Login page
+[INFO ] [2024-01-24 05:24:13,793] Login - Step 02: Enter to Email textbox with value is 'faye.lehner@yahoo.com'
+[INFO ] [2024-01-24 05:24:13,908] Login Step 03: Enter to Password textbox with value is 'I4rV@m&5L3'
+[INFO ] [2024-01-24 05:24:13,989] Login - Step 04: Click to Login button
+[INFO ] [2024-01-24 05:24:14,536] Login Step 05: Verify 'My Account' link is displayed
+[INFO ] [2024-01-24 05:24:14,634]  -------------------------- PASSED -------------------------- 
+[INFO ] [2024-01-24 05:24:14,636] Login Step 06: Navigate to 'My Account' page
+[INFO ] [2024-01-24 05:24:14,945] Login Step 06: Verify 'Customer Infor' page is displayed
+[INFO ] [2024-01-24 05:24:15,043]  -------------------------- PASSED -------------------------- 
+[INFO ] [2024-01-24 05:24:15,048] My Account Step 01: Navigate to 'My Account' page
+[INFO ] [2024-01-24 05:24:15,391] My Account Step 02: Verify 'Customer Infor' page is displayed
+[INFO ] [2024-01-24 05:24:15,475]  -------------------------- PASSED -------------------------- 
+[INFO ] [2024-01-24 05:24:15,475] My Account Step 03: Verify 'First Name' value is correctly
+[INFO ] [2024-01-24 05:24:15,534]  -------------------------- PASSED -------------------------- 
+[INFO ] [2024-01-24 05:24:15,534] My Account Step 04: Verify 'Last Name' value is correctly
+[INFO ] [2024-01-24 05:24:15,595]  -------------------------- PASSED -------------------------- 
+[INFO ] [2024-01-24 05:24:15,595] My Account Step 05: Verify 'Email' value is correctly
+[INFO ] [2024-01-24 05:24:15,659]  -------------------------- PASSED -------------------------- 
+[INFO ] [2024-01-24 05:24:15,660] OS name = windows 11
+[INFO ] [2024-01-24 05:24:15,660] Driver instance name = firefoxdriver: firefox on windows (5f8973f2-e4c2-455b-8e30-f1510cc4084b)

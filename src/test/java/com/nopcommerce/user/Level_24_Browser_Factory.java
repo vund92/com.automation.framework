@@ -104,7 +104,7 @@ public class Level_24_Browser_Factory extends BaseTest {
 		registerPage.clickToButtonByText("Register");
 
 		log.info("Register - Step 08: Verify register success message is displayed");
-		Assert.assertEquals(registerPage.getRegisterSuccessMessage(), "Your registration completed");
+		Assert.assertEquals(registerPage.getRegisterSuccessMessage(), "Your registration completed...");
 	}
 
 	@Description("User 02 - Login") //for allure
