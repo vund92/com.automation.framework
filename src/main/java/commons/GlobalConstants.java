@@ -2,10 +2,9 @@ package commons;
 
 import java.io.File;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
-@Getter
+@Data
 public class GlobalConstants {
 
 	private static GlobalConstants globalInstance;

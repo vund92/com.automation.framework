@@ -1,4 +1,6 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="https://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.automation.framework</groupId>
 	<artifactId>com.automation.framework</artifactId>
@@ -157,6 +159,14 @@
 			<version>1.0.10</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.30</version>
+			<scope>provided</scope>
+		</dependency>
+
 
 	</dependencies>
 
@@ -186,13 +196,14 @@
 						<!--<suiteXmlFile>src/test/resources/${suiteXmlFile}.xml</suiteXmlFile>-->
 						<!--<suiteXmlFile>environmentRunner/${environment}.xml</suiteXmlFile> -->
 						<!--runNopCommerceUser_LOCAL.xml-->
-						<suiteXmlFile>src/test/resources/runNopCommerceUser_LOCAL.xml</suiteXmlFile>
+						<suiteXmlFile>
+							src/test/resources/runNopCommerceUser_LOCAL.xml</suiteXmlFile>
 					</suiteXmlFiles>
 
 					<!-- Argument -->
 					<argLine>
-                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
-                    </argLine>
+						-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+					</argLine>
 				</configuration>
 			</plugin>
 

@@ -1,12 +1,12 @@
-1694391029334	geckodriver	INFO	Listening on 127.0.0.1:50732
-1694391029644	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\WELCOME\\AppData\\Local\\Temp\\rust_mozprofileE1xtwt"
+1706047245684	geckodriver	INFO	Listening on 127.0.0.1:9113
+1706047246125	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\AD\\AppData\\Local\\Temp\\rust_mozprofileL1p3bb"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1694391030075	Marionette	INFO	Marionette enabled
+1706047246827	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1694391030567	Marionette	INFO	Listening on port 57954
-Read port: 57954
+1706047247516	Marionette	INFO	Listening on port 49397
+Read port: 49397
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
-1694391050327	Marionette	INFO	Stopped listening on port 57954
+1706047266402	Marionette	INFO	Stopped listening on port 49397
 Dynamically enable window occlusion 1
